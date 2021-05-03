@@ -14,9 +14,7 @@ const TechNewsArticles = () =>
           axios.get('/top-headlines?sources=techcrunch&apiKey=9f912effda464f639b6b0ba2079d6ba3')
                     .then(response => {
                          const newsResponse = response.data.articles.slice(0,8);
-                         console.log(newsResponse);
                          setNews(newsResponse)
-                         console.log(news)
                          setIsLoading(false)
                     })
                     .catch(error => {

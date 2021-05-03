@@ -23,6 +23,7 @@ News api source used: https://newsapi.org
 >>If any attribute has null value then that field will will appear as 'Not available' for that news article card. 
 >>Card will be highlighted on hovering on hovering.
 >>Links will be highlighted on hovering on hovering.
+>>Different styling for the link which is selected.
 >>'Read more' option will be highlighted on hovering.
 >>We have used an HOC 'Auxiliary' as a wrapper component.
 >>In header last updated date-time will be displayed(it will shoe the date-time of last refresh os the page)
