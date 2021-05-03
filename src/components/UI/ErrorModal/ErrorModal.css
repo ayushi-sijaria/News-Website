@@ -1,0 +1,52 @@
+.Error-Modal {
+     position: fixed;
+     top: 30vh;
+     left: calc(50% - 15rem);
+     width: 30rem;
+     background: white;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+     z-index: 100;
+     border-radius: 7px;
+   }
+   
+   .Error-Modal h2 {
+     margin: 0;
+     padding: 1rem;
+     background: #fa923f;
+     color: white;
+     border-radius: 7px 7px 0 0;
+   }
+   
+   .Error-Modal p {
+       padding: 1rem;
+   }
+   
+   .Error-Modal__Actions {
+       display: flex;
+       justify-content: flex-end;
+       padding: 0 0.5rem;
+   }
+   
+   .Backdrop {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100vh;
+     background: rgba(0, 0, 0, 0.75);
+     z-index: 50;
+   }
+
+   .Button
+   {
+     background-color: #fa923f;
+     border-radius: 5px ;
+     color: white;
+     outline: none;
+     cursor: pointer;
+     font: inherit;
+     padding: 10px;
+     margin: 10px;
+     font-weight: bold;
+   }
+   
